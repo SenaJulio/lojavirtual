@@ -1,0 +1,26 @@
+.header-warning{
+    background-color: #000000;
+    color: #ffffff;
+    padding: 16px 0;
+    text-align: center;
+}
+.header-warning .desktop{
+    display: none;
+}
+.header-warning span{
+    font-weight: bold;
+}
+
+
+
+
+
+
+@media(width > 714px){
+    .header-warning .desktop{
+        display: block;
+    }
+    .header-warning .mobile{
+        display: none;
+    }
+}
