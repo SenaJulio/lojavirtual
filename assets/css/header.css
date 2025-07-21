@@ -24,12 +24,16 @@ header .header-main{
 
 
 }
-header .header-main .header-left{
+.header-left{
     display: flex;
     align-items: center;
 }
+.header-left .logo{
+    margin-right: 40px;
+}
 .header-left ul{
     display: none;
+    align-items: center;
     gap: 40PX;
 
 }
@@ -37,17 +41,40 @@ header .header-main .header-left{
     text-decoration: none;
     color: #7F7F7F;
 }
+.header-left li a:hover{
+    color: #000000;
+}
 
 .header-right{
     display: flex;
     align-items: center;
     gap: 16px;
 }
-.header-right .search{
+.header-right .search,
+.header-search .search{
    display: none;
+   width:160px ;
+   height: 48px;
+   border: 1px solid #D9D9D9;
+   border-radius: 4px;
+   font-size: 1.6rem;
+   outline: none;
+   padding-right:16px;
+   padding-left:39px ;
+   background-image: url(../images/ui/search.png);
+   background-repeat: no-repeat;
+   background-size: 24px 24px;
+   background-position: 10px center;
+}
+.header-search{
+    padding: 0 24px 24px 24px;
    
 }
 
+.header-search .search{
+    display: flex;
+    width: 100%;
+}
 
 
 @media(width > 714px){
@@ -60,8 +87,18 @@ header .header-main .header-left{
 }
 
 @media ( width > 1024px){
+    .header-search{
+        display: none;
+    }
     .header-left ul{
     display: flex;
 
   }
+  .header-right .search{
+    display: block;
+  }
+  .header-right .menu-burger{
+    display: none;
+}
+
 }
