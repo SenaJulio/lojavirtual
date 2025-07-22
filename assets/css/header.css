@@ -76,6 +76,23 @@ header .header-main{
     width: 100%;
 }
 
+.header-menu{/* Area geral*/
+    display: none;
+  padding-bottom: 32px;
+  
+}
+.header-menu a{
+    display: block;/* oucupa todo espaço disponivel*/
+    text-decoration: none;
+    color: #7F7F7F;
+    font-size: 1.9rem;
+    padding:24px 32px;
+    border-bottom: 1px solid #D9D9D9;
+    background-image: url(../images/ui/arrow-up-right.png);
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    background-position:right 32px  center ;
+}
 
 @media(width > 714px){
     .header-warning .desktop{
