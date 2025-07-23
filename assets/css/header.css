@@ -50,6 +50,19 @@ header .header-main{
     align-items: center;
     gap: 16px;
 }
+
+.header-right .menu-burger.acitve{
+    background-color: #1D4FFE;
+}
+.header-right .menu-burger .on{
+    display: none;
+}
+.header-right .menu-burger.active .on{
+    display: block;
+}
+.header-right .menu-burger.active .off{
+    display: none;
+}
 .header-right .search,
 .header-search .search{
    display: none;
@@ -116,6 +129,9 @@ header .header-main{
   }
   .header-right .menu-burger{
     display: none;
+}
+.header-menu{
+    display: none !important;
 }
 
 }

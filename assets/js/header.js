@@ -7,8 +7,10 @@ menuBurger.addEventListener('click', ()=>{
   // se está oculto ele aparece.
   if(headerMenu.style.display  === 'block'){
     headerMenu.style.display = 'none';
+    menuBurger.classList.remove('active');
   } else {
     headerMenu.style.display = 'block';
+    menuBurger.classList.add('active');
   }
 
 });

@@ -15,6 +15,10 @@ body{
     font-family: "Poppins", sans-serif;
     background-color: #F9F9F9;
 }
+main{
+    max-width: 1024px;
+    margin: auto;
+}
 .btn-icon {
 width: 48px;
 height: 48px;
