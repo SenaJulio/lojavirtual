@@ -32,7 +32,17 @@ footer{
     color: #ffffff;
     font-size: 2rem;
 }
-
+.footer-title{
+text-align: center;
+font-size: 2rem;
+margin-bottom: 32px;
+}
+.social .footer-icons{
+    display: flex;
+    justify-content: center;
+    gap: 21px;
+    color: #ffffff;
+}
 @media(width > 1024px){
     .footer-menu{
         padding-top: 63px;
